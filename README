@@ -1,0 +1,4 @@
+Demonstrate the fragile base class problem.
+
+Compile the sample once, then uncomment var15, or method15 and its calls to see the problem:
+Parent and/or hiworld get recompiled, but Child doesn't, resulting in wrong accesses.
